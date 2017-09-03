@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="9Puzzle.css">
+</head>
+<body>
+
+<div class="game-container">
+
+    <h2> 9 PUZZLE </h2>
+    <p class="victory-message" style="visibility: hidden"> &#9996; Congratulation you won</p>
+    <div class="game-board">
+        <ul class="tile-wrapper">
+            <li class="tile" data-tile="1">1</li>
+            <li class="tile" data-tile="2">2</li>
+            <li class="tile" data-tile="3">3</li>
+            <li class="tile" data-tile="4">4</li>
+            <li class="tile" data-tile="5">5</li>
+            <li class="tile" data-tile="6">6</li>
+            <li class="tile" data-tile="7">7</li>
+            <li class="tile" data-tile="8">8</li>
+        </ul>
+
+        <div class="btn-wrapper">
+            <button class="reset-btn">Reset</button>
+            <button class="set-btn">Set Won</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="util.js"></script>
+<script src="tiles-action-manager.js"></script>
+<script src="base-tile-class.js"></script>
+<script src="tiles-class.js"></script>
+<script src="tiles-instance-factory.js"></script>
+<script src="9Puzzle.js"></script>
+
+</body>
+</html>

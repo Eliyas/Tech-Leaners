@@ -1,0 +1,67 @@
+
+.game-container {
+
+}
+
+.game-container h2 {
+    text-align: center;
+    font-weight: 100;
+}
+
+.game-board {
+    margin: 0 auto;
+    width: 251px;
+    height: 250px;
+    border: 10px solid rgba(161, 50, 15, 0.85);
+    box-sizing: border-box;
+    position: absolute;
+    left: 40%;
+}
+
+.tile-wrapper {
+    height: 100%;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.tile-wrapper .tile:nth-child(odd) {
+    background: #FF9800;
+}
+
+.tile-wrapper .tile {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    float: left;
+    margin: 4px;
+    width: 29.8%;
+    height: 29.8%;
+    font-size: 24px;
+    list-style: none;
+    padding: 18px 0 0;
+    position: absolute;
+    text-align: center;
+    transition: 0.5s all;
+    display: inline-block;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px -3px #181717;
+}
+
+.tile-wrapper .tile:nth-child(even) {
+    background: #FFC107;
+}
+
+.btn-wrapper{
+    padding-top: 25px;
+}
+
+.victory-message{
+    display: inline-block;
+    position: absolute;
+    left: 23%;
+    font-size: 18px;
+    text-shadow: 3px 3px 9px #46b24a;
+}
